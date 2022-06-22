@@ -1,0 +1,120 @@
+@media all and (min-width: 992px) {
+  .navbar .dropdown-menu-end {
+    right: 0;
+    left: auto;
+  }
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin-top: 0;
+  }
+  .navbar .nav-item:hover .nav-link {
+    color: #fff;
+  }
+  .navbar .dropdown-menu.fade-down {
+    top: 80%;
+    transform: rotateX(-75deg);
+    transform-origin: 0% 0%;
+  }
+  .navbar .dropdown-menu.fade-up {
+    top: 180%;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotateX(0deg);
+  }
+}
+@media screen and (max-width: 600px) {
+  .navbar-toggler-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    color: black;
+  }
+  .contact-context-icons {
+    display: none;
+  }
+}
+header {
+  font-family: "Poppins", sans-serif;
+  .navbar {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    .fa-angle-down {
+      font-size: 13px;
+    }
+    a {
+      color: black;
+      font-size: 17px;
+    }
+    li {
+      padding-left: 15px;
+      &:hover .nav-link {
+        color: #106eea !important;
+      }
+    }
+    .navigation {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .navbar-collapse {
+        flex-grow: 0;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: bold;
+        font-family: "Poppins", sans-serif;
+        cursor: pointer;
+      }
+    }
+  }
+  .contact-row {
+    background-color: #106eea;
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    a {
+      color: white;
+    }
+    .contact {
+      display: flex;
+      justify-content: space-between;
+      .fa-brands {
+        cursor: pointer;
+        margin-left: 10px;
+        opacity: 80%;
+      }
+    }
+    .contact-context {
+      display: flex;
+      .contact-context-item {
+        font-size: 15px;
+        margin-right: 20px;
+      }
+    }
+  }
+  .dropdown-menu {
+    left: auto;
+    z-index: 2;
+    border: 1px solid rgba(128, 128, 128, 0.335);
+    border-radius: 0px;
+    li {
+      padding: 7px 0;
+      a {
+        font-size: 16px;
+      }
+      &:hover a {
+        color: #106eea;
+        background-color: transparent;
+      }
+    }
+  }
+}

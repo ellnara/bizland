@@ -1,0 +1,53 @@
+#about-us {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  justify-content: center;
+  background-color: #f6f9fe;
+  text-align: center;
+  padding-top: 50px;
+  ul {
+    list-style: none;
+    li {
+      display: flex;
+    }
+    text-align: start;
+  }
+  .about-us-heading {
+    display: block;
+    p {
+      font-size: 16px;
+      font-weight: bold;
+      color: #444444;
+      margin: 15px 279px 0;
+    }
+    & > span {
+      color: #106eea;
+      border: 1px;
+      padding: 10px 20px;
+      background-color: #e7f1fd;
+      border-radius: 40px;
+      font-weight: bold;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    h2 {
+      margin-top: 20px;
+      font-size: 32px;
+      font-weight: bold;
+      span {
+        color: #106eea;
+      }
+    }
+  }
+  .about-us-context {
+    margin-top: 30px;
+    display: flex;
+    img {
+      width: 546px;
+      height: 522px;
+    }
+  }
+}
+.container {
+  max-width: 1140px;
+}

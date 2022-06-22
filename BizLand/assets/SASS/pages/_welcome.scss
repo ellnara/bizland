@@ -1,0 +1,61 @@
+#welcome {
+  background: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg);
+  min-height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0 auto;
+  position: relative;
+  .welcome-context {
+    display: inline-block;
+    min-height: 70vh;
+    display: flex;
+    font-size: 30px;
+    align-self: center;
+    background-color: rgba(255, 255, 255, 0.596);
+    align-items: center;
+    a {
+      text-decoration: none;
+      color: #222222b6;
+      font-size: 17px;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 51px;
+      font-weight: bold;
+      font-family: "Poppins", sans-serif;
+      cursor: pointer;
+      span {
+        color: #106eea;
+      }
+    }
+    p {
+      margin-top: -20px;
+      color: #444444;
+      font-size: 24px;
+    }
+    button {
+      border-radius: 5px;
+      background-color: #106eea;
+      border: 1px solid transparent;
+      color: white;
+      padding: 10px 30px;
+      letter-spacing: 1px;
+      box-sizing: border-box;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .fa-circle-play {
+      color: #106eea;
+      margin-top: 10px;
+      font-size: 30px;
+    }
+  }
+}
+// #welcome {
+//   background: url(https://bootstrapmade.com/demo/templates/BizLand/assets/img/hero-bg.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   background-attachment: fixed;
+// }
